@@ -1,0 +1,64 @@
+figure {
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 80px 25px;
+
+}
+img.mfp-img {
+    border-radius: 20px;
+}
+
+.mfp-preloader {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+button.mfp-close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border-color: #ffbf00;
+    cursor: pointer;
+}
+img.mfp-img {
+    width: 700px;
+    height: 450px;
+    object-fit: cover;
+}
+.mfp-title {
+    display: none;
+}
+
+/* Custom Left & Right Arrows */
+.mfp-arrow {
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 11, 11, 0.3);
+    border-radius: 50%;
+    transition: background 0.3s;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.mfp-arrow-left {
+    background: url('https://cdn-icons-png.flaticon.com/512/271/271220.png') center/contain no-repeat;
+    left: 10px;
+}
+
+.mfp-arrow-right {
+    background: url('https://cdn-icons-png.flaticon.com/512/271/271228.png') center/contain no-repeat;
+    right: 10px;
+}
+.mfp-preloader {
+    display: none;
+}
